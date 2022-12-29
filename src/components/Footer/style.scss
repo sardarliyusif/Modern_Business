@@ -1,0 +1,31 @@
+footer{
+  padding: 1.5rem 0 ;
+  background-color: #212529;
+  color : #fff;
+  .container{
+    .row{
+      display: flex;
+      justify-content: space-between;
+      gap: 1.2rem;
+      align-items: center;
+      .link{
+        display: flex;
+        gap: 1rem;
+        li a{
+        color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  footer{
+    .container{
+      padding : 1.5rem 1rem ;
+      .row {
+        flex-direction: column;
+      }
+    }
+  }
+}
